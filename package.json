@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start": "npm run serve & npm run watch",
+    "serve": "python -m SimpleHTTPServer",
+    "watch": "chokidar-socket-emitter"
+  },
   "jspm": {
     "name": "app",
     "dependencies": {
