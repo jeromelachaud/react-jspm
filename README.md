@@ -1,5 +1,4 @@
-Usage 
-
-python -m SimpleHTTPServer
-
-chokidar-socket-emitter
+Start by running:
+```
+npm start
+```
