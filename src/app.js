@@ -1,12 +1,12 @@
 import React from 'react';
-import {Component} from './components/component';
+import {Button} from './components/button';
 
 export class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
-        <Component />
+        <h3>Components:</h3>
+        <Button />
       </div>
     );
   }
